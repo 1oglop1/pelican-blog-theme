@@ -1,0 +1,38 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Helvetica, Arial, sans-serif";
+  font-size: 1.6em;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+body .navbar {
+  color: white;
+}
+body .navbar .nav-link {
+  color: white;
+}
+body .navbar .active > .nav-link {
+  color: #15aabf;
+}
+body .navbar #search-form {
+  float: right;
+}
+body .navbar .social-right .social-right-wrapper ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+body .navbar .social-right .social-right-wrapper ul li a {
+  color: white;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+/*# sourceMappingURL=style.css.map */
